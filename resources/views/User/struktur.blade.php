@@ -273,7 +273,7 @@
   </section>
 
   <!-- Main Content -->
-  <main class="flex-1 py-16">
+<main class="flex-1 py-16">
     <div class="container mx-auto px-6">
       
       <!-- Organizational Structure -->
@@ -287,8 +287,7 @@
                 Kepala LPPM
               </div>
               <div class="person-info">
-                <div class="person-name">Dr. Ir. Nama Kepala, M.T.</div>
-                <div class="person-detail">NIP: 123456789012345</div>
+                <div class="person-name">Rosni Lumbantoruan, Ph.D.</div>
                 <div class="person-detail">Email: kepala.lppm@del.ac.id</div>
                 <div class="person-detail">Ext: 1001</div>
               </div>
@@ -296,108 +295,54 @@
           </div>
         </div>
 
-        <!-- Level 2: Wakil Kepala -->
+        <!-- Level 2: Sekretaris -->
         <div class="org-level">
           <div class="flex justify-center">
             <div class="org-card w-80">
               <div class="connection-line"></div>
               <div class="position-title">
-                Wakil Kepala LPPM
+                Sekretaris
               </div>
               <div class="person-info">
-                <div class="person-name">Dr. Nama Wakil, M.Sc.</div>
-                <div class="person-detail">NIP: 123456789012346</div>
-                <div class="person-detail">Email: wakil.lppm@del.ac.id</div>
+                <div class="person-name">Tegar Arifin Prasetyo, S.Si., M.Si.</div>
+                <div class="person-detail">Email: sekretaris.lppm@del.ac.id</div>
                 <div class="person-detail">Ext: 1002</div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Level 3: Koordinator Bidang -->
+        <!-- Level 3: Staf -->
         <div class="org-level">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             
-            <!-- Koordinator Penelitian -->
+            <!-- Staf 1 -->
             <div class="org-card">
               <div class="connection-line"></div>
               <div class="position-title">
-                Koordinator Penelitian
+                Staf Administrasi
               </div>
               <div class="person-info">
-                <div class="person-name">Dr. Nama Koordinator Penelitian, M.T.</div>
-                <div class="person-detail">NIP: 123456789012347</div>
-                <div class="person-detail">Email: penelitian@del.ac.id</div>
+                <div class="person-name">Helmina Girsang</div>
+                <div class="person-detail">Email: helmina.girsang@del.ac.id</div>
                 <div class="person-detail">Ext: 1003</div>
               </div>
             </div>
 
-            <!-- Koordinator Pengabdian -->
+            <!-- Staf 2 -->
             <div class="org-card">
               <div class="connection-line"></div>
               <div class="position-title">
-                Koordinator Pengabdian Masyarakat
+                Staf Administrasi
               </div>
               <div class="person-info">
-                <div class="person-name">Dr. Nama Koordinator Pengabdian, M.Kom.</div>
-                <div class="person-detail">NIP: 123456789012348</div>
-                <div class="person-detail">Email: pengabdian@del.ac.id</div>
+                <div class="person-name">Nani Parapat</div>
+                <div class="person-detail">Email: nani.parapat@del.ac.id</div>
                 <div class="person-detail">Ext: 1004</div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Level 4: Staf Administrasi -->
-        <div class="org-level">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            
-            <!-- Staf Administrasi Penelitian -->
-            <div class="org-card">
-              <div class="connection-line"></div>
-              <div class="position-title">
-                Staf Administrasi Penelitian
-              </div>
-              <div class="person-info">
-                <div class="person-name">Nama Staf Penelitian, S.Kom.</div>
-                <div class="person-detail">NIP: 123456789012349</div>
-                <div class="person-detail">Email: admin.penelitian@del.ac.id</div>
-                <div class="person-detail">Ext: 1005</div>
-              </div>
-            </div>
-
-            <!-- Staf Administrasi Pengabdian -->
-            <div class="org-card">
-              <div class="connection-line"></div>
-              <div class="position-title">
-                Staf Administrasi Pengabdian
-              </div>
-              <div class="person-info">
-                <div class="person-name">Nama Staf Pengabdian, S.E.</div>
-                <div class="person-detail">NIP: 123456789012350</div>
-                <div class="person-detail">Email: admin.pengabdian@del.ac.id</div>
-                <div class="person-detail">Ext: 1006</div>
-              </div>
-            </div>
-
-            <!-- Staf Keuangan -->
-            <div class="org-card">
-              <div class="connection-line"></div>
-              <div class="position-title">
-                Staf Keuangan
-              </div>
-              <div class="person-info">
-                <div class="person-name">Nama Staf Keuangan, S.Ak.</div>
-                <div class="person-detail">NIP: 123456789012351</div>
-                <div class="person-detail">Email: keuangan.lppm@del.ac.id</div>
-                <div class="person-detail">Ext: 1007</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Information Box -->
-        
 
       </div>
     </div>
