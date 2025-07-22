@@ -260,7 +260,7 @@
                                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent transition duration-300" 
                                            placeholder="Masukkan judul publikasi" required>
                                 </div>
-                                <div x-data="{ authors: {{ json_encode(explode(',', $publication->author)) }} }" class="space-y-2">
+                                <div x-data="{ authors: {{ json_encode(explode('||', $publication->author)) }} }" class="space-y-2">
                                     <label class="block text-sm font-medium text-gray-700">Penulis</label>
 
                                     <!-- Input Dinamis -->

@@ -48,7 +48,7 @@ public function store(Request $request)
 
     Publication::create([
         'title' => $request->title,
-        'author' => implode(', ', $request->author), // Gabungkan array penulis menjadi string
+        'author' => implode(' || ', $request->author), // Gunakan pemisah aman
         'file_path' => $filePath,
         'category_id' => $request->category_id,
         'published_at' => $request->published_at,
@@ -81,7 +81,7 @@ public function store(Request $request)
     /**
      * Update the specified resource in storage.
      */
-  public function update(Request $request, Publication $publication)
+public function update(Request $request, Publication $publication)
 {
     $request->validate([
         'title' => 'required|string|max:255',
@@ -104,7 +104,7 @@ public function store(Request $request)
 
     $publication->update([
         'title' => $request->title,
-        'author' => implode(', ', $request->author), // Gabungkan array penulis
+        'author' => implode(' || ', $request->author), // Gunakan pemisah aman
         'file_path' => $filePath,
         'category_id' => $request->category_id,
         'published_at' => $request->published_at,
